@@ -1,7 +1,6 @@
 package kata
 
 import org.junit.Assert.assertEquals
-import org.junit.Ignore
 import org.junit.Test
 
 class StringCalculatorTest {
@@ -35,7 +34,6 @@ class StringCalculatorTest {
     }
 
     @Test
-    @Ignore
     fun nonNumberLiteral() {
         val result = StringCalculator("1 b").sum()
 
