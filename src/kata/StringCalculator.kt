@@ -1,19 +1,19 @@
 package kata
 
-class StringCalculator {
+class StringCalculator(private var input: String) {
 
-    fun add(s: String): Int {
-        if (isEmptyOrHasNoSpace(s)) return 0
+    fun sum(): Int {
+        if (isEmptyOrHasNoSpace()) return 0
 
-        val array = s.split(" ")
-
-        val a = array[0].toInt()
-        val b = array[1].toInt()
-
-        return a + b
+        return input.split(" ")
+                .sumBy { it.toInt() }
     }
 
-    private fun isEmptyOrHasNoSpace(s: String): Boolean {
-        return !s.isNotEmpty() || !s.contains(" ")
+    private fun isEmptyOrHasNoSpace(): Boolean {
+        return !input.isNotEmpty() || !input.contains(" ")
+    }
+
+    private fun isNonNumberDelimiterExists() {
+
     }
 }
