@@ -9,7 +9,8 @@ class StringCalculator(private var input: String) {
 
         if (isNonNumberDelimiterExists()) return 0
 
-        return input.split(" ")
+        return input
+                .split(" ")
                 .sumBy { it.toInt() }
     }
 

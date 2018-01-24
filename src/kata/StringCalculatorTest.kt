@@ -27,6 +27,21 @@ class StringCalculatorTest {
     }
 
     @Test
+    fun nonNumberLiteral() {
+        val result = StringCalculator("1 b").sum()
+
+        assertEquals(0, result)
+    }
+
+    @Test
+    fun tooLargeNumber() {
+        val largeNum: Long = (Int.MAX_VALUE - 1).toLong()
+        val result = StringCalculator(largeNum.toString() +" 1")
+
+        assertEquals(0, result)
+    }
+
+    @Test
     fun simpleSum() {
         val result = StringCalculator("1 2").sum()
 
@@ -34,9 +49,19 @@ class StringCalculatorTest {
     }
 
     @Test
-    fun nonNumberLiteral() {
-        val result = StringCalculator("1 b").sum()
+    fun tripleSum() {
+        val result = StringCalculator("1 1 1").sum()
 
-        assertEquals(0, result)
+        assertEquals(3, result)
+    }
+
+    @Test
+    fun multipleDelimitersSum() {
+        var str = "0"
+        for (i in 1..1000) str += " 1"
+
+        val result = StringCalculator(str).sum()
+
+        assertEquals(1000, result)
     }
 }
