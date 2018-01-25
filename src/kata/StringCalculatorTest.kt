@@ -34,9 +34,8 @@ class StringCalculatorTest {
     }
 
     @Test
-    fun tooLargeNumber() {
-        val largeNum: Long = (Int.MAX_VALUE - 1).toLong()
-        val result = StringCalculator(largeNum.toString() +" 1")
+    fun exceedingMaxInt() {
+        val result = StringCalculator(Int.MAX_VALUE.toString() + " 1").sum()
 
         assertEquals(0, result)
     }

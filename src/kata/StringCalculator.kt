@@ -9,9 +9,14 @@ class StringCalculator(private var input: String) {
 
         if (isNonNumberDelimiterExists()) return 0
 
-        return input
-                .split(" ")
-                .sumBy { it.toInt() }
+        val array = input.split(" ")
+
+        array.forEach {
+            if (isDelimiterMoreThanMaxInt(it.toLong()))
+                return 0
+        }
+
+        return array.sumBy { it.toInt() }
     }
 
     private fun isEmptyOrHasNoSpace(): Boolean {
@@ -20,5 +25,9 @@ class StringCalculator(private var input: String) {
 
     private fun isNonNumberDelimiterExists(): Boolean {
         return !Pattern.compile("[0-9 ]+").matcher(input).matches()
+    }
+
+    private fun isDelimiterMoreThanMaxInt(delimiter: Long): Boolean {
+        return delimiter >= Int.MAX_VALUE
     }
 }
