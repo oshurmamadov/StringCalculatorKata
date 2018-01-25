@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3824a911-3c87-4d55-91e2-41664a6a8972" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/bin/kata/StringCalculator.class" afterPath="$PROJECT_DIR$/bin/kata/StringCalculator.class" />
+      <change beforePath="$PROJECT_DIR$/bin/kata/StringCalculatorTest.class" afterPath="$PROJECT_DIR$/bin/kata/StringCalculatorTest.class" />
       <change beforePath="$PROJECT_DIR$/src/kata/StringCalculator.kt" afterPath="$PROJECT_DIR$/src/kata/StringCalculator.kt" />
       <change beforePath="$PROJECT_DIR$/src/kata/StringCalculatorTest.kt" afterPath="$PROJECT_DIR$/src/kata/StringCalculatorTest.kt" />
     </list>
@@ -23,8 +26,8 @@
       <file leaf-file-name="StringCalculatorTest.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/kata/StringCalculatorTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            <state relative-caret-position="374">
+              <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
               <folding>
                 <element signature="e#14#72#0" expanded="true" />
               </folding>
@@ -35,8 +38,8 @@
       <file leaf-file-name="StringCalculator.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kata/StringCalculator.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+            <state relative-caret-position="374">
+              <caret line="22" column="81" lean-forward="false" selection-start-line="22" selection-start-column="81" selection-end-line="22" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -55,8 +58,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/kata/StringCalculator.kt" />
         <option value="$PROJECT_DIR$/src/kata/StringCalculatorTest.kt" />
+        <option value="$PROJECT_DIR$/src/kata/StringCalculator.kt" />
       </list>
     </option>
   </component>
@@ -129,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringCalculatorTest.exceedingMaxInt">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -151,7 +154,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="StringCalculatorTest.exceedingMaxInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="kata.*" />
@@ -163,7 +166,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="kata" />
       <option name="MAIN_CLASS_NAME" value="kata.StringCalculatorTest" />
-      <option name="METHOD_NAME" value="exceedingMaxInt" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="StringCalculatorTest.commaDelimiter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="kata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="StringCalculatorKata" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="kata" />
+      <option name="MAIN_CLASS_NAME" value="kata.StringCalculatorTest" />
+      <option name="METHOD_NAME" value="commaDelimiter" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -176,7 +204,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="StringCalculatorTest.multipleDelimitersSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTest.noSpace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="kata.*" />
@@ -188,7 +216,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="kata" />
       <option name="MAIN_CLASS_NAME" value="kata.StringCalculatorTest" />
-      <option name="METHOD_NAME" value="multipleDelimitersSum" />
+      <option name="METHOD_NAME" value="noSpace" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="StringCalculatorTest.oneVariable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="kata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="StringCalculatorKata" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="kata" />
+      <option name="MAIN_CLASS_NAME" value="kata.StringCalculatorTest" />
+      <option name="METHOD_NAME" value="oneVariable" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -214,56 +267,6 @@
       <option name="PACKAGE_NAME" value="kata" />
       <option name="MAIN_CLASS_NAME" value="kata.StringCalculatorTest" />
       <option name="METHOD_NAME" value="simpleSum" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="StringCalculatorTest.tooLargeNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="kata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="StringCalculatorKata" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="kata" />
-      <option name="MAIN_CLASS_NAME" value="kata.StringCalculatorTest" />
-      <option name="METHOD_NAME" value="tooLargeNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="StringCalculatorTest.tripleSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="kata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="StringCalculatorKata" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="kata" />
-      <option name="MAIN_CLASS_NAME" value="kata.StringCalculatorTest" />
-      <option name="METHOD_NAME" value="tripleSum" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -337,19 +340,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.tooLargeNumber" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.tripleSum" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.multipleDelimitersSum" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.simpleSum" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.exceedingMaxInt" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.commaDelimiter" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.noSpace" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.oneVariable" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.simpleSum" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.exceedingMaxInt" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.tooLargeNumber" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.multipleDelimitersSum" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.tripleSum" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.simpleSum" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.simpleSum" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.oneVariable" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.commaDelimiter" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.noSpace" />
       </list>
     </recent_temporary>
   </component>
@@ -370,35 +373,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringCalculatorTest_exceedingMaxInt - 2018.01.25 at 14h 55m 16s.xml">
-      <configuration name="StringCalculatorTest.exceedingMaxInt" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest - 2018.01.25 at 17h 25m 18s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_multipleDelimitersSum - 2018.01.25 at 14h 51m 47s.xml">
-      <configuration name="StringCalculatorTest.multipleDelimitersSum" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_commaDelimiter - 2018.01.25 at 17h 19m 01s.xml">
+      <configuration name="StringCalculatorTest.commaDelimiter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_simpleSum - 2018.01.25 at 14h 51m 39s.xml">
+    <history-entry file="StringCalculatorTest_commaDelimiter - 2018.01.25 at 17h 19m 11s.xml">
+      <configuration name="StringCalculatorTest.commaDelimiter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_commaDelimiter - 2018.01.25 at 17h 19m 49s.xml">
+      <configuration name="StringCalculatorTest.commaDelimiter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_commaDelimiter - 2018.01.25 at 17h 19m 55s.xml">
+      <configuration name="StringCalculatorTest.commaDelimiter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_commaDelimiter - 2018.01.25 at 17h 20m 58s.xml">
+      <configuration name="StringCalculatorTest.commaDelimiter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_commaDelimiter - 2018.01.25 at 17h 22m 12s.xml">
+      <configuration name="StringCalculatorTest.commaDelimiter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_oneVariable - 2018.01.25 at 17h 25m 51s.xml">
+      <configuration name="StringCalculatorTest.oneVariable" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_oneVariable - 2018.01.25 at 17h 26m 22s.xml">
+      <configuration name="StringCalculatorTest.oneVariable" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_simpleSum - 2018.01.25 at 17h 26m 28s.xml">
       <configuration name="StringCalculatorTest.simpleSum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_tooLargeNumber - 2018.01.25 at 14h 49m 39s.xml">
-      <configuration name="StringCalculatorTest.tooLargeNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_tooLargeNumber - 2018.01.25 at 14h 49m 49s.xml">
-      <configuration name="StringCalculatorTest.tooLargeNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_tooLargeNumber - 2018.01.25 at 14h 51m 23s.xml">
-      <configuration name="StringCalculatorTest.tooLargeNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_tooLargeNumber - 2018.01.25 at 14h 52m 33s.xml">
-      <configuration name="StringCalculatorTest.tooLargeNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_tooLargeNumber - 2018.01.25 at 14h 52m 42s.xml">
-      <configuration name="StringCalculatorTest.tooLargeNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_tooLargeNumber - 2018.01.25 at 14h 53m 23s.xml">
-      <configuration name="StringCalculatorTest.tooLargeNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_tripleSum - 2018.01.25 at 14h 51m 44s.xml">
-      <configuration name="StringCalculatorTest.tripleSum" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -413,7 +416,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30211818" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41583055" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="2" y="694" width="1914" height="305" />
@@ -442,7 +445,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -525,14 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kata/StringCalculator.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Primitives.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -541,10 +536,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/text/Strings.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="1165" column="24" lean-forward="false" selection-start-line="1165" selection-start-column="24" selection-end-line="1165" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kata/StringCalculator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="81" lean-forward="false" selection-start-line="22" selection-start-column="81" selection-end-line="22" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/kata/StringCalculatorTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        <state relative-caret-position="374">
+          <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
           <folding>
             <element signature="e#14#72#0" expanded="true" />
           </folding>

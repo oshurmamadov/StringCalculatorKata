@@ -13,13 +13,6 @@ class StringCalculatorTest {
 	}
 
     @Test
-    fun noSpace() {
-        val result = StringCalculator("1,2").sum()
-
-        assertEquals(0, result)
-    }
-
-    @Test
     fun oneVariable() {
         val result = StringCalculator("1").sum()
 
@@ -62,5 +55,12 @@ class StringCalculatorTest {
         val result = StringCalculator(str).sum()
 
         assertEquals(1000, result)
+    }
+
+    @Test
+    fun commaDelimiter() {
+        val result = StringCalculator("1,1").sum()
+
+        assertEquals(2, result)
     }
 }
