@@ -63,4 +63,11 @@ class StringCalculatorTest {
 
         assertEquals(2, result)
     }
+
+    @Test
+    fun newLineDelimiter() {
+        val result = StringCalculator("1\n2,3").sum()
+
+        assertEquals(6, result)
+    }
 }
