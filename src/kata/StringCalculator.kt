@@ -9,7 +9,7 @@ class StringCalculator(private var input: String) {
 
         if (isNonNumberDelimiterExists()) return 0
 
-        val array = input.split(" ", ",")
+        val array = input.split(" ", ",", "\n")
 
         array.forEach {
             if (isDelimiterMoreThanMaxInt(it.toLong()))
