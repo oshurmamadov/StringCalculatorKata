@@ -2,19 +2,16 @@ package kata
 
 import java.util.regex.Pattern
 
-class StringCalculator(private var input: String) {
+class InputValidator {
+    private var input = ""
 
-    fun sum(): Int {
-        if (InputValidator().validateString(input)) return 0
+    fun validateString(input: String): Boolean {
+        this.input = input
+        return !isNotEmptyAndContainsDelimiters() || isNonNumberDelimiterExists()
+    }
 
-        val array = input.split(" ", ",", "\n")
-
-        array.forEach {
-            if (!it.isNotEmpty() || isDelimiterMoreThanMaxInt(it.toLong()))
-                return 0
-        }
-
-        return array.sumBy { it.toInt() }
+    fun validateDelimiter(delimiter: String): Boolean {
+        return isDelimiterMoreThanMaxInt(delimiter.toLong())
     }
 
     private fun isNotEmptyAndContainsDelimiters(): Boolean {
