@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3824a911-3c87-4d55-91e2-41664a6a8972" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/kata/InputValidator.kt" afterPath="$PROJECT_DIR$/src/kata/InputValidator.kt" />
       <change beforePath="$PROJECT_DIR$/src/kata/StringCalculator.kt" afterPath="$PROJECT_DIR$/src/kata/StringCalculator.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -20,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StringCalculatorTest.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StringCalculatorTest.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/kata/StringCalculatorTest.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="747">
@@ -32,11 +33,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringCalculator.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringCalculator.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kata/StringCalculator.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="272">
+              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kata/Constants.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -45,8 +56,8 @@
       <file leaf-file-name="InputValidator.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kata/InputValidator.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+            <state relative-caret-position="476">
+              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -58,6 +69,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -73,8 +85,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/kata/StringCalculatorTest.kt" />
-        <option value="$PROJECT_DIR$/src/kata/InputValidator.kt" />
         <option value="$PROJECT_DIR$/src/kata/StringCalculator.kt" />
+        <option value="$PROJECT_DIR$/src/kata/Constants.kt" />
+        <option value="$PROJECT_DIR$/src/kata/InputValidator.kt" />
       </list>
     </option>
   </component>
@@ -397,11 +410,11 @@
     <history-entry file="StringCalculatorTest - 2018.01.30 at 12h 55m 04s.xml">
       <configuration name="StringCalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_newLineDelimiter - 2018.01.29 at 12h 22m 04s.xml">
-      <configuration name="StringCalculatorTest.newLineDelimiter" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest - 2018.01.30 at 12h 59m 00s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_newLineDelimiter - 2018.01.30 at 12h 09m 49s.xml">
-      <configuration name="StringCalculatorTest.newLineDelimiter" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest - 2018.01.30 at 13h 00m 05s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StringCalculatorTest_newNotFullLineDelimiter - 2018.01.30 at 12h 10m 26s.xml">
       <configuration name="StringCalculatorTest.newNotFullLineDelimiter" configurationId="JUnit" />
@@ -559,10 +572,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/kata/Constants.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/kata/InputValidator.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        <state relative-caret-position="476">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kata/StringCalculator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -574,14 +603,6 @@
           <folding>
             <element signature="e#14#72#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kata/StringCalculator.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>

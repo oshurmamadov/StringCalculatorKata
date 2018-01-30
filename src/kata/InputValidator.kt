@@ -11,15 +11,16 @@ class InputValidator {
     }
 
     fun validateDelimiter(delimiter: String): Boolean {
-        return isDelimiterMoreThanMaxInt(delimiter.toLong())
+        return !delimiter.isNotEmpty() || isDelimiterMoreThanMaxInt(delimiter.toLong())
     }
 
     private fun isNotEmptyAndContainsDelimiters(): Boolean {
-        return input.isNotEmpty() && (input.contains(",") || input.contains(" ") || input.contains("\n") )
+        return input.isNotEmpty() &&
+                (input.contains(COMMA_DEL) || input.contains(SPACE_DEL) || input.contains(NEW_LINE_DEL))
     }
 
     private fun isNonNumberDelimiterExists(): Boolean {
-        return !Pattern.compile("[0-9 ,'\n]+").matcher(input).matches()
+        return !Pattern.compile(CALC_CORRECT_REGEX).matcher(input).matches()
     }
 
     private fun isDelimiterMoreThanMaxInt(delimiter: Long): Boolean {
