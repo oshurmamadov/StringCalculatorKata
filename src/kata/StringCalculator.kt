@@ -12,7 +12,7 @@ class StringCalculator(private var input: String) {
         val array = input.split(" ", ",", "\n")
 
         array.forEach {
-            if (isDelimiterMoreThanMaxInt(it.toLong()))
+            if (!it.isNotEmpty() || isDelimiterMoreThanMaxInt(it.toLong()))
                 return 0
         }
 

@@ -70,4 +70,11 @@ class StringCalculatorTest {
 
         assertEquals(6, result)
     }
+
+    @Test
+    fun newNotFullLineDelimiter() {
+        val result = StringCalculator("1\n").sum()
+
+        assertEquals(0, result)
+    }
 }
