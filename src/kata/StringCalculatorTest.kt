@@ -77,4 +77,9 @@ class StringCalculatorTest {
 
         assertEquals(0, result)
     }
+
+    @Test(expected = Exception::class)
+    fun negativeDelimiter() {
+        StringCalculator("-10\n1").sum()
+    }
 }

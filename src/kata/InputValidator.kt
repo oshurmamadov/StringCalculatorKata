@@ -7,14 +7,19 @@ class InputValidator {
 
     fun validateString(input: String): Boolean {
         this.input = input
-        return !isNotEmptyAndContainsDelimiters() || isNonNumberDelimiterExists()
+        return !isNotEmptyAndContainsDelimiters() ||
+                isNonNumberDelimiterExists()
     }
 
     fun validateDelimiter(delimiter: String): Boolean {
-        return !delimiter.isNotEmpty() || isDelimiterMoreThanMaxInt(delimiter.toLong())
+        return !delimiter.isNotEmpty() ||
+                isDelimiterMoreThanMaxInt(delimiter.toLong())
     }
 
     private fun isNotEmptyAndContainsDelimiters(): Boolean {
+        if(input.contains(MINUS_DEL))
+            throw Exception("Jush wam thamand magen cift")
+
         return input.isNotEmpty() &&
                 (input.contains(COMMA_DEL) || input.contains(SPACE_DEL) || input.contains(NEW_LINE_DEL))
     }
